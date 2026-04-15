@@ -1,77 +1,52 @@
-# Hi, I'm Vaibhav 🌱
+<div align="center">
 
-I'm a full-stack engineer who loves shipping cohesive product experiences across accounting, CRM, workforce, and analytics platforms. My recent focus has been building modular, multi-tenant SaaS systems for fast-moving teams and making complex, data-heavy workflows feel effortless.
+<!-- Optional: replace with your banner image -->
+<!-- <img src="./docs/banner/profile-banner.png" alt="Banner" width="100%" /> -->
 
-- 🧠 Currently exploring: distributed system design, SaaS observability, clean data contracts  
-- 🛠️ Preferred stack: TypeScript, React, Next.js, Node.js, PostgreSQL, Turborepo, Docker  
-- 🤝 Collaboration style: product-led, metrics-aware, API-first
+# Vaibhav Garg
 
----
+**Technical Product Manager · Product Builder · AI/LLM Products**
 
-## What I'm Working On
+*I build AI-powered SaaS products end-to-end: strategy → roadmap → execution → measurable outcomes.*
 
-- **Suite Platform** – consolidating accounting, CRM, inventory, workforce, and integrations into a single workspace with shared auth and billing infrastructure.
-- **API Governance** – defining consistent API contracts, request validation, and telemetry hooks across services.
-- **Data Insights** – bringing finance, workforce, and sales data into unified dashboards for exec summaries and daily operations.
+[![GitHub followers](https://img.shields.io/github/followers/lazygeek007?label=Follow&style=social)](https://github.com/lazygeek007)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/vaibhavgarg93)
 
----
-
-## Selected Projects
-
-| Project | What I did | Tech |
-| --- | --- | --- |
-| **Suite Platform** | Designed the multi-app architecture, unified auth, and billing logic across accounting, CRM, workforce, and web portals. | Next.js, Turborepo, Node.js, PostgreSQL, Redis |
-| **Accounting Service** | Led migration to consistent schema naming, improved reporting accuracy, and added audit-ready exports. | Express, PostgreSQL, Knex, Jest |
-| **Workflow Automation** | Built reusable workflow engine to trigger email, in-app, SMS, and webhook notifications with per-tenant throttling. | Node.js, BullMQ, Twilio, SendGrid |
-| **Data Quality Toolkit** | Automated schema linting, environment parity checks, and seed data scripts for complex financial datasets. | Node.js, Docker, GitHub Actions |
+[Email](mailto:vaibhavgarg.ce@gmail.com)
 
 ---
 
-## Toolbox
+</div>
 
-**Languages**  
-TypeScript, JavaScript, Python, SQL, Bash
+## What I do
 
-**Frontend**  
-React, Next.js, Tailwind CSS, Radix UI, Zustand
+I’m a **technical product manager** with **9+ years** building and scaling enterprise SaaS and B2B platforms. My recent work focuses on **LLM productization**: RAG systems, agent workflows, evaluation, security, and adoption.
 
-**Backend**  
-Node.js, Express, Fastify, REST, GraphQL, tRPC
+### Highlights (selected, measurable)
 
-**Data & Infra**  
-PostgreSQL, Prisma, Knex, Redis, Docker, Kubernetes, Terraform
-
-**Tooling & Quality**  
-Turborepo, NX, ESLint, Playwright, Jest, GitHub Actions, Datadog
+- Built a **3-year AI roadmap** and secured **$5M funding** after competitive benchmarking and 50+ customer interviews.
+- Implemented a **RAG framework** that reduced hallucinations **15% → 3%** at **200K+ DAU** scale.
+- Shipped enterprise security/access control that enabled onboarding of major customers and drove **$10M+ ARR** impact.
+- Led cross-functional delivery (engineering, data science, design) across AI chat, analytics, and recommendations—improving adoption, satisfaction, and retention.
 
 ---
 
-## Highlights
+## Now building in public
 
-- Shipped a unified enterprise suite that handles authentication, billing, CRM, and workforce management for mid-sized teams.  
-- Drove a project-wide migration to a consistent database naming convention, eliminating auth and reporting bugs.  
-- Accelerated QA cycles by introducing scenario-based fixtures, seeded data, and telemetry dashboards for service health.  
-- Mentored teams on balancing speed with observability, including structured logging, audit trails, and postmortem playbooks.
+I’m preparing open-source demos and tooling. I’ll add public links as soon as each repo is **public and runnable**.
 
----
+### Projects (in progress)
 
-## Learning & Sharing
-
-- Publishing technical notes on modular SaaS architecture, schema governance, and cross-app design systems (coming soon).  
-- Experimenting with Storybook-driven documentation and component consistency checks across microfrontends.  
-- Always open to collaborating on open-source tooling for API hygiene, test automation, and developer experience.
+- **AI Lab (Streamlit demo hub)** — a host + plugins structure so each project can be its own repo, while still running as one combined demo app.
+  - **Host**: `ai-lab-host` (Streamlit shell + plugin discovery)
+  - **RAG Studio**: `rag-studio` (ask questions over text/PDF with citations)
+  - **Agent Playground**: `agent-playground` (tool-using agent with execution trace)
+- **MCP contract kit** — tool definition validation and snapshot tests for MCP-style tool lists (`mcp-contract-kit`).
 
 ---
 
-## Let’s Connect
+## Toolbox (product + technical)
 
-- 💼 LinkedIn: [Vaibhav Garg](https://www.linkedin.com/in/vaibhav-garg)  
-- 🧠 Blog: Coming soon at [lazygeek.dev](https://lazygeek.dev)  
-- 📬 Email: `vaibhav.garg.dev [at] gmail.com`
-
----
-
-> “Good software is opinionated about the customer problem and empathetic about the developer experience.”
-
-Thanks for stopping by! Looking to collaborate on thoughtful SaaS experiences, developer tooling, or data-driven automation.
-
+**Product:** roadmaps, discovery, GTM, stakeholder management, experimentation, analytics  
+**AI/LLM:** RAG systems, agent workflows, evaluation, safety/security, rollout and adoption  
+**Technical:** Python, SQL, APIs, instrumentation/telemetry, data pipelines, prototyping
